@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Add emp Success]]>
+    </line>
+    <line>
+      <![CDATA[Added User Pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56617" started-at="2022-05-06T14:15:16Z" finished-at="2022-05-06T14:16:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="56617" started-at="2022-05-06T14:15:16Z" finished-at="2022-05-06T14:16:12Z">
+      <class name="driverFactory.TestScript">
+        <test-method status="PASS" signature="adminLogin()[pri:0, instance:driverFactory.TestScript@5b275dab]" name="adminLogin" is-config="true" duration-ms="11503" started-at="2022-05-06T19:45:16Z" finished-at="2022-05-06T19:45:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+        <test-method status="PASS" signature="validateEmp()[pri:0, instance:driverFactory.TestScript@5b275dab]" name="validateEmp" duration-ms="13550" started-at="2022-05-06T19:45:27Z" finished-at="2022-05-06T19:45:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Add emp Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateEmp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:driverFactory.TestScript@5b275dab]" name="tearDown" is-config="true" duration-ms="197" started-at="2022-05-06T19:45:41Z" finished-at="2022-05-06T19:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="adminLogin()[pri:0, instance:driverFactory.TestScript@5b275dab]" name="adminLogin" is-config="true" duration-ms="9126" started-at="2022-05-06T19:45:41Z" finished-at="2022-05-06T19:45:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin -->
+        <test-method status="PASS" signature="validateUser()[pri:0, instance:driverFactory.TestScript@5b275dab]" name="validateUser" duration-ms="22062" started-at="2022-05-06T19:45:50Z" finished-at="2022-05-06T19:46:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Added User Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:driverFactory.TestScript@5b275dab]" name="tearDown" is-config="true" duration-ms="150" started-at="2022-05-06T19:46:12Z" finished-at="2022-05-06T19:46:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- driverFactory.TestScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
